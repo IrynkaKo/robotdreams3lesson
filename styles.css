@@ -1,0 +1,85 @@
+body {
+    background-color: #557571;
+}
+h1 {
+    font-family: 'Gemunu Libre', sans-serif;
+    color:#D49A89;
+}
+ul {
+    font-family: 'Roboto', sans-serif;
+    color: #D49A89;
+}
+a  {
+    color: #F7D1BA;
+}
+
+}
+table {
+    background-color:#557571 ;
+}
+th, td {
+    color :#F7D1BA;
+}
+.btn {
+    background-color: aquamarine;
+    margin: 20px;
+    padding : 20px;
+    font-size: 20px;
+    color: rgb(206, 77, 77);
+    border-radius: 30px;
+    border: none;
+
+}
+
+
+@media all and (  max-width:800px ) {
+    body {
+        background-color: #907FA4 ;
+    }
+
+    .img {
+        width: 300px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    li {
+        align-self: center;
+        font-size: 13px;
+    }
+
+    .parent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item {
+        align-self: center;
+    }
+
+    
+    .btn {
+        background-color: #A6D6D6;
+    }
+
+    .ratep {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item2 {
+        align-self: center;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+}
+
+@media all and (  max-width:500px ) {
+    body {
+        background-color: #907FA4 ;
+    }
